@@ -5,7 +5,8 @@
 <meta charset="UTF-8">
 <title>Priscilas Candy</title>
 <link href="https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Kurale|Lobster|Zilla+Slab" rel="stylesheet">
-<link href="StyleSheet.css" rel="stylesheet" type="text/css">
+<link href="StyleSheetSlide.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="script.js"></script>
 </head>
 
 
@@ -21,17 +22,22 @@
 <a class="item2" style="text-decoration: none;" href="#">Catálogo</a>
 <a class="item3" style="text-decoration: none;" href="#">Contato</a>
 </div>
-<div id = "gallery">
-<img id = "p1" class= "balas" src = "images/b1.jpg">
-<img id =  "p2" class= "balas" src = "images/b2.jpg">
-<img id = "p3" class= "balas" src = "images/b3.jpg">
-<img id = "p4" class= "balas" src = "images/b4.jpg">
-<img id = "p5" class= "balas" src = "images/b5.jpg">
-<img id = "p6" class= "balas" src = "images/b6.jpg">
-
+<div id= "pics">
+<div id="gallery">
+ <img id = "p1" class="balas"  src="images/b1.jpg"onclick="next(this);">
+ <img id = "p2" class="balas"  src="images/b2.jpg"onclick="next(this);">
+ <img id = "p3" class="balas"  src="images/b3.jpg"onclick="next(this);">
+ <img id = "p4" class="balas"  src="images/b4.jpg"  onclick="next(this);">
+ <img id = "p5" class="balas"  src="images/b5.jpg"  onclick="next(this);">
+ <img id = "p6" class="balas"  src="images/b6.jpg"  onclick="next(this);">
 </div>
 
-
+<div class="expand">
+<img id = "slide" src = "images/b1.jpg">
+</div>
+</div>
+</div>
+</div>
 
   <ul id = "list"><li>Balas de coco artesanais</li>
   <li>Feitas com ingredientes de primeira</li>

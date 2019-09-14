@@ -38,8 +38,8 @@ margin-top:5em;
 margin-left:auto;
 margin-right:auto;
 display:grid;	
-justify-items:center;
-justify-content:center;
+justify-content:start;
+align-content:center;
 grid-column-gap:0;
 grid-template-columns:auto auto auto;
 					
@@ -70,6 +70,28 @@ grid-column:3/3;
 grid-row:2/3;
 justify-self:start;
 }	
+#slide{
+	margin-left:50px;
+}
+#pics{
+	display:flex;
+	flex-direction:row;
+	
+	
+	
+}
+#slide{
+	width:50%;
+	height:auto;
+	max-width:50em;
+}
+.expand{
+	justify-self:end;
+	align-self:center;
+	overflow:hidden;
+	
+	
+}
 .balas{
 width:18em;
 height:auto;
@@ -80,6 +102,8 @@ border-width: 5px;
 border-color: pink;  
 border-style: solid;
 }	
+
+	
 @media(max-width:500px){
   .menu{
 
